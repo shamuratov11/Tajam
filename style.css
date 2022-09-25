@@ -1,0 +1,601 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body
+{
+    font-family: sans-serif;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+body::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    
+}
+header{
+    margin: auto;
+    
+    background-image:  url(myTajam_images/myTajam-bg-image-first.png);
+    
+    background-color: rgba(49,44,82, 0.85);
+    
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode:  darken;
+   
+}
+#navbar{
+    display: flex;
+    margin: auto;
+
+}
+.logo{
+    width: 50%;
+    display: flex;
+}
+.logo img{
+    padding: 10px;
+}
+.logo p{
+    padding-top: 15px;
+    font-size: 25px;
+    color: turquoise;
+    font-family: 'Courier New', Courier, monospace;
+    font-style:unset;
+}
+#navbar ul li a:hover,#navbar ul li a.current {
+
+    
+    color: turquoise;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 10px;
+    
+}
+#navbar ul{
+    list-style: none;
+    float: right;
+}
+#navbar ul li{
+    display: inline-block;
+    padding-top: 20px;
+}
+
+/* showcase-content */
+
+#showcase{
+    text-align: center;
+}
+.showcase-content h1{
+    color: #fff;
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+#showcase .showcase-content p{
+    font-size: 14px;
+    font-family: sans-serif;
+    margin: 50px;
+    color: #fff;
+}
+.outline{
+    border-width: 1px;
+    border-color: rgb(0, 224, 208);
+    border-style: solid;
+    border-radius: 2px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: rgb(0, 224, 208);
+    font-weight: bold;
+    font-size: 10px;
+
+    
+    
+ } 
+ /* two boxes  */
+#boxes{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 75px;
+}
+#boxes .left-box{
+width: 40%;
+/* background-image: url(myTajam_images/tajam_second_logo.png);
+background-repeat: no-repeat;
+background-position: center; */
+
+
+}
+#boxes .left-box img{
+    width: 150px;
+    float: right;
+    margin: 50px;
+
+}
+.empty-div{
+    width: 5%;
+
+}
+#boxes .right-box{
+    width: 55%;
+
+}
+#boxes .right-box h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: #413D4B;
+    margin-top: 30px;
+   
+}
+#boxes .right-box p{
+    color: #D5D4D8;
+    font-family: sans-serif;
+    margin-top: 30px;
+}
+.p2{
+   margin-bottom: 30px;
+}
+
+
+.showcase-content h1::before{
+    content: "";
+   
+    
+}
+.third-section{
+ 
+    
+    background-image:  url(myTajam_images/third-section.png);
+    
+    background-color: rgba(49,44,82, 0.85);
+    
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode:  darken;
+    text-align: center;
+    padding-top: 210px;
+
+   
+}
+.third-section h3{
+    color: #FFF;
+   font-size: 30px;
+   font-family: sans-serif;
+}
+.third-section .icon a{
+    text-decoration: none;
+    color: #FFF;
+    
+}
+.icon{
+    margin: auto;
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    
+   
+    
+}
+/* fourth section*/
+.fourth-section{
+    width: 100%;
+    height: 670px;
+   
+
+}
+.fourth-section h4{
+    padding: 20px;
+    text-align: center;
+    width: larger;
+    font-family: sans-serif;
+    color: #413D4B;
+}
+.fourth-section .fourth-section-header-text{
+    color: #78777C;
+    text-align: center;
+    
+}
+
+.fourth-section .fourth-section-header-text::after{
+    left: 46.5%;
+    border: 1px solid #78777C;
+    margin: auto;
+    width: 5%;
+   margin: 10px;
+   font-family: sans-serif;
+    
+    content: "";
+    position: absolute;
+    display: block;
+    color: #78777C;
+ 
+   
+}
+.fourth-section .for-three-div{
+    display: flex;
+    padding: 0 10px;
+    
+}
+.fourth-section .fourth-section-parent-div{
+    margin: 80px;
+    width: 100%;
+}
+.fourth-section .for-three-div .card-for-three-div{
+    width: 30%;
+    font-family: sans-serif;
+   
+}
+.card-for-three-div .card-icon{
+  color: #36B4CB;
+  font-size: 50px;
+  padding: 20px;
+  text-align: center;
+}
+.fourth-section .for-three-div .card-for-three-div h5{
+    padding: 10px;
+    color: #403E4B;
+    text-align: center;
+}
+.fourth-section .for-three-div .card-for-three-div p{
+   text-align: center;
+    padding: 30px 40px;
+    color: #7A7A7A;
+
+}
+/*  fifth section   */
+.fifth-section{
+    margin-top: 100px;
+    background-image:  url(myTajam_images/fifth-section.png);
+    
+    background-color: rgba(49,44,82, 0.85);
+    
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode:  darken;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.fifth-section h4{
+    padding: 20px;
+    text-align: center;
+    width: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    
+ 
+}
+.fifth-section .fifh-section-header-text::after{
+    left: 46.5%;
+    border: 1px solid #655C80;
+    margin: auto;
+    width: 5%;
+   margin: 10px;
+   font-family: sans-serif;
+    
+    content: "";
+    position: absolute;
+    display: block;
+    color: #FFF;
+ 
+   
+}
+.fifh-section-header-text{
+    color: #F3F3F4;
+    text-align: center;
+    
+}
+.fifth-section-parent-div{
+    display: flex;
+ 
+   margin: 30px 0;
+   width: 100%;
+ 
+  
+    
+}
+.fifth-section-card{
+    border: 1px solid #FFF;
+    margin: 10px;
+    width: 25%;
+  
+      
+}
+.fifth-section-card img{
+width: 214px;
+height: 150px;
+}
+.fifth-section-card h6{
+    font-size: 14px;
+    padding: 5px ;
+    color: #FFF;
+    
+}
+.fifth-section-card p{
+    font-size: 13px;
+    padding: 5px ;
+    color: #FFF;
+    
+}
+.fifh-section-header-text-p2{
+    color: #F3F3F4;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+/*sixth section */
+.sixth-section{
+    width: 100%;
+    height: 670px;
+
+}
+.sixth-section .sixth-header-parent-div{
+    display: flex;
+    width: 100%;
+
+}
+.sixth-section .sixth-header-parent-div .six-header-div{
+    width: 50%;
+    text-align: center;
+    font-family: sans-serif;
+  margin: 50px 0;}
+.six-section-boxes{
+    display: flex;
+    width: 100%;
+}
+.boxes-box1{
+    width: 16.66%;
+    background-color: #B5B5B5;
+    height: 150px;
+}
+.boxes-box2{
+    width: 16.66%;
+    background-color: #ACACAC;
+    height: 150px
+
+}
+.boxes-box3{
+    width: 16.66%;
+    background-color: #A1A1A1;
+    height: 150px
+
+}
+.boxes-box4{
+    width: 16.66%;
+    background-color: #8A8A8A;
+    height: 150px
+
+}
+.sixth-section-btn{
+    text-align: center;
+    margin: 100px;
+}
+/*sevent-section*/
+.seventh-section{
+    /* margin-top: 100px; */
+    background-image:  url(myTajam_images/seventh-section.png);
+    
+    background-color: rgba(49,44,82, 0.85);
+    
+    width: 100%;
+    height: 670px;
+    background-size: cover;
+    background-position:center;
+    background-blend-mode:  darken;
+    text-align: center;
+    padding-top: 30px;
+   
+
+}
+.girgiddon{
+    width: 50%;
+    margin: auto;
+}
+@font-face {
+    font-family: PlayfairDispay;
+    src: url(fonts/Playfair_Display/static/PlayfairDisplay-Italic.ttf);
+}
+.seventh-section h1{
+    color: #FFF;
+    font-size: 100px;
+    font-family:"PlayfairDisplay";
+}
+.seventh-section h3{
+    margin: 70px 50px 10px 50px;
+    color: #FFF;
+    font-family: sans-serif;
+    
+
+}
+.seventh-section p{
+   padding: 4px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgba(255, 255, 255, 0.851);
+    font-weight: lighter;
+}
+/*eight-section*/
+.eighth-section{
+    /* margin-top: 150px; */
+    width: 100%;
+    height: 670px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+.eighth-section-parent{
+    margin: 110px 0;
+    display: flex;
+    width: 100%;
+}
+.eighth-section-child{
+    width: 45%;
+    /* margin: 0 40px; */
+    margin: 0 auto;
+}
+.eighth-section-child h3{
+    margin: 10px 0;
+   color:#413D4B;
+}
+.eighth-section-child input,textarea{
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    width: 100%;
+    opacity: 0.6;
+    
+}
+
+.brand-parent{
+    display: flex;
+  
+}
+.brand-child img{
+    display: block;
+    margin: 30px;
+    margin-left: 0;
+    
+}
+footer{
+  
+    background-image:  url(myTajam_images/footer-img.png);
+    
+    background-color: rgba(49,44,82, 0.85);
+    
+    width: 100%;
+    /* height: 300px; */
+    background-size: cover;
+    background-position:center;
+    background-blend-mode:  darken;
+    /* text-align: center; */
+    /* padding-top: 30px; */
+}
+/*footer*/
+.footer-parent{
+   padding: 30px;
+    display: flex;
+    width: 120%;
+}
+.footer-child {
+    width: 30%;
+}
+.footer-child .footer-text {
+    font-family: sans-serif;
+    text-align: left;
+    color: #FFF;
+    font-size: 14px;
+    padding: 2px;
+    line-height: 1.875;
+}
+.footer-child h5{
+    text-align: left;
+    margin-top: 20px; ;
+    color: #FFF;
+    margin-bottom: 50px;
+}
+.footer-child .send{
+    text-decoration: none;
+    border: 1px solid #FFF;
+    padding: 9px;
+    color: #000;
+    background-color: #FFF;
+    opacity: 0.5;
+    margin-left: 2px;
+    padding: 10px;
+}
+.footer-child form input{
+    
+    /* margin: 20px 0; */
+    padding: 10px;
+    color: black;
+    border: 1px solid #FFF;
+    background-color: transparent;
+    width: 80%;
+
+
+}
+.footer-child .icons{
+    margin-top: 30px;
+    display: flex;
+}
+.footer-child .icons p{
+    float: right;
+    color: #FFF;
+    margin-top: 90px;
+}
+.footer-child .icons a{
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 50%;
+     /* padding: 10px;  */
+    width: 50px;
+    height: 50px;
+    color: #FFF;
+    margin: 5px;
+    font-size: 20px;
+    padding: 15px;
+    
+}
+.facebook{
+    border: 1px solid red;
+    width: 33px;
+    height: 33px;
+   
+}
+
+.footer-child form{
+    
+    display: inline;
+   
+}
+.footer-child .icons a i{
+    text-align: center;
+    border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+  /* width: 33px;
+  height: 33px;
+  */
+    
+}
+.footer-child.copy{
+    text-align: center;
+}
+/* .facebook25 {
+  background-image: url("facebook25.png");
+  position: absolute;
+  left: 993px;
+  top: 5200px;
+  width: 7px;
+  height: 15px;
+  z-index: 52;
+}
+.Ellipse_2 {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 50%;
+  position: absolute;
+  left: 979px;
+  top: 5190px;
+  width: 33px;
+  height: 33px;
+  z-index: 51;
+} */
